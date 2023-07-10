@@ -150,16 +150,100 @@ body {
     align-items: center;
 }
 
-.work-section > img{
+.work-section>img {
     width: 60px;
     height: 60px;
     /* position: fixed; */
     /* justify-content: safe; */
     align-items: center
-    /* flex-shrink: 0; */
-    /* justify-content: center; */
-    /* background: #000; */
+        /* flex-shrink: 0; */
+        /* justify-content: center; */
+        /* background: #000; */
 }
+
 /* .work-section > p{
     align-items:;
 } */
+.deal-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgba(229, 84, 115, 0.05); */
+    background-blend-mode: overlay;
+    color: white;
+    background: #000;
+    /* text-align: center; */
+}
+
+.deal-detail,
+p {
+    border-radius: 8px;
+    padding: 10px;
+    /* background: #000; */
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+}
+
+.flower {
+    width: 40%;
+    margin: auto;
+    margin: 20px;
+}
+
+.card {
+    margin: 40px 60px;
+}
+
+.card,
+img {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 80%;
+    /* margin: 48px 100px; */
+    /* padding: 10px; */
+    margin: auto;
+    size: 80px;
+
+}
+
+.card-img>img {
+
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    width: 263px;
+    height: 280px;
+    flex-shrink: 0;
+    /* padding: 48px; */
+    /* border: 1px solid red; */
+}
+
+.for-latest-deal {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 128px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-image: url('./Flower\ Asset/'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.for-latest-deal h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
+}
+
+.input {
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
